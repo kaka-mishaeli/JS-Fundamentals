@@ -1,5 +1,5 @@
 // Get the number of arguments passed (excluding the first two default args)
-const args = process.argv.slice(7);
+const args = process.argv;
 
 // Determine and print the appropriate message
 if (args.length === 0) {
